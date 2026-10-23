@@ -35,9 +35,9 @@
 </p>
 
 <p align="center">
-  <sub>I write tools for myself first and publish them once they stop embarrassing me. <code>dev-workflow</code><br>
+  I write tools for myself first and publish them once they stop embarrassing me. <code>dev-workflow</code><br>
   exists because I kept losing the thread between sessions; the dotfiles are public because a config you<br>
-  cannot rebuild from scratch is a config you do not understand.</sub>
+  cannot rebuild from scratch is a config you do not understand.
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@
   <a href="https://github.com/andreaserradev-gbj/dev-workflow"><img src="https://img.shields.io/badge/dev--workflow-2c2a28?style=for-the-badge&logo=claude&logoColor=d8d6d2" alt="dev-workflow"></a>
 </p>
 <p align="center">
-  <sub>Multi-session feature work with coding agents: PRD phases, checkpoints, resume across tools.</sub>
+  Multi-session feature work with coding agents: PRD phases, checkpoints, resume across tools.
 </p>
 
 <p align="center">
@@ -62,7 +62,7 @@
   <a href="https://portfolio-template-ten-eta.vercel.app"><img src="https://img.shields.io/badge/live-b08648?style=for-the-badge&logo=vercel&logoColor=1a1816" alt="Live demo"></a>
 </p>
 <p align="center">
-  <sub>Six switchable design systems driven by JSON, Zod-validated at build time.</sub>
+  Six switchable design systems driven by JSON, Zod-validated at build time.
 </p>
 
 <p align="center">
@@ -70,21 +70,21 @@
   <a href="https://jev-access-day.vercel.app"><img src="https://img.shields.io/badge/live-b08648?style=for-the-badge&logo=vercel&logoColor=1a1816" alt="Live demo"></a>
 </p>
 <p align="center">
-  <sub>Typed decision model against an LLM stand-in on 24 operational decisions, every run committed.</sub>
+  Typed decision model against an LLM stand-in on 24 operational decisions, every run committed.
 </p>
 
 <p align="center">
   <a href="https://github.com/andreaserradev-gbj/dotfiles-nix"><img src="https://img.shields.io/badge/dotfiles--nix-2c2a28?style=for-the-badge&logo=nixos&logoColor=d8d6d2" alt="dotfiles-nix"></a>
 </p>
 <p align="center">
-  <sub>Three machines from one NixOS flake. One command rebuilds system and <code>$HOME</code>.</sub>
+  Three machines from one NixOS flake. One command rebuilds system and <code>$HOME</code>.
 </p>
 
 ---
 
 <h2 align="center">Tools</h2>
 
-<p align="center"><sub><b>BACKEND</b></sub></p>
+<p align="center"><b>BACKEND</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-2c2a28?style=for-the-badge&logo=typescript&logoColor=d8d6d2" alt="TypeScript">
   <img src="https://img.shields.io/badge/Node.js-2c2a28?style=for-the-badge&logo=nodedotjs&logoColor=d8d6d2" alt="Node.js">
@@ -93,14 +93,14 @@
   <img src="https://img.shields.io/badge/AWS_Lambda-2c2a28?style=for-the-badge&logo=amazonwebservices&logoColor=d8d6d2" alt="AWS Lambda">
 </p>
 
-<p align="center"><sub><b>FRONTEND</b></sub></p>
+<p align="center"><b>FRONTEND</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/React-2c2a28?style=for-the-badge&logo=react&logoColor=d8d6d2" alt="React">
   <img src="https://img.shields.io/badge/Tailwind_CSS-2c2a28?style=for-the-badge&logo=tailwindcss&logoColor=d8d6d2" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/shadcn%2Fui-2c2a28?style=for-the-badge&logo=shadcnui&logoColor=d8d6d2" alt="shadcn/ui">
 </p>
 
-<p align="center"><sub><b>INFRA &amp; OS</b></sub></p>
+<p align="center"><b>INFRA &amp; OS</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Docker-2c2a28?style=for-the-badge&logo=docker&logoColor=d8d6d2" alt="Docker">
   <img src="https://img.shields.io/badge/NixOS-2c2a28?style=for-the-badge&logo=nixos&logoColor=d8d6d2" alt="NixOS">
@@ -109,5 +109,5 @@
 </p>
 
 <p align="center">
-  <sub>NixOS on three hosts · a Corne MX Pro · a Neovim config two decades of muscle memory keep rewriting</sub>
+  NixOS on three hosts · a Corne MX Pro · a Neovim config two decades of muscle memory keep rewriting
 </p>
