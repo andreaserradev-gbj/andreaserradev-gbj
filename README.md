@@ -21,8 +21,6 @@ I own applications from planning through production, and I keep the architecture
 | **May 2013 – Oct 2026** | Balsamiq · Bologna | Full reset into TypeScript / Node / AWS; Atlassian liaison; Lambda rendering services | **13 years** as primary technical liaison, **+55%** marketplace revenue, **100K+** requests/day at **99.9%** uptime |
 | **Nov 2026 –** | Scalapay · Remote | Greenfield NestJS services: identity verification, AML, fraud provider integrations, credit-bureau reporting | One of the first engineers on a newly formed Risk Ops team |
 
-The reset at Balsamiq is the line I can defend hardest. The discipline that tuned a race ECU — measure, instrument, change one thing — is the same one I apply to a Lambda renderer and a risk pipeline. Only the language changed.
-
 ## Selected work
 
 Every claim below links to something you can read or run.
