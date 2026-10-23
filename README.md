@@ -29,8 +29,8 @@ Every claim below links to something you can read or run.
 
 | Repository | What it proves |
 | --- | --- |
-| **[dev-workflow](https://github.com/andreaserradev-gbj/dev-workflow)** · 2★ | Multi-session feature work with coding agents: PRD phases, checkpoints, resume. Runs on Claude Code, Codex, and Gemini CLI. The discipline that keeps a Monday design decision driving Thursday's code. |
-| **[portfolio-template](https://github.com/andreaserradev-gbj/portfolio-template)** · 5★ · [live](https://portfolio-template-ten-eta.vercel.app) | JSON-driven portfolio with six switchable design systems, Zod-validated at build time. React 19, TypeScript, Tailwind v4, shadcn/ui. |
+| **[dev-workflow](https://github.com/andreaserradev-gbj/dev-workflow)** | Multi-session feature work with coding agents: PRD phases, checkpoints, resume. Runs on Claude Code, Codex, and Gemini CLI. The discipline that keeps a Monday design decision driving Thursday's code. |
+| **[portfolio-template](https://github.com/andreaserradev-gbj/portfolio-template)** · [live](https://portfolio-template-ten-eta.vercel.app) | JSON-driven portfolio with six switchable design systems, Zod-validated at build time. React 19, TypeScript, Tailwind v4, shadcn/ui. |
 | **[jev-access-day](https://github.com/andreaserradev-gbj/jev-access-day)** · [live](https://jev-access-day.vercel.app) | Eval harness pitting a typed decision model against an LLM stand-in on 24 real operational decisions — every number traced to a committed run file. |
 | **[dotfiles-nix](https://github.com/andreaserradev-gbj/dotfiles-nix)** | Three machines from one NixOS flake. One `nixos-rebuild switch --flake .` rebuilds the system and `$HOME`; per-project dev shells load through direnv. My machines are code, reviewed like code. |
 
@@ -55,4 +55,4 @@ That paragraph is why `dev-workflow` exists, and why my dotfiles are public.
 
 `TypeScript` · `Node.js` · `NestJS` · `React` · `MySQL` · `Sequelize / TypeORM` · `AWS Lambda` · `Docker` · `Nix` · `Neovim` · `C++`
 
-Long-lived: **NixOS** on three hosts, a 46-key Corne, and a Neovim config two decades of muscle memory keep rewriting.
+Long-lived: **NixOS** on three hosts, a Corne MX Pro, and a Neovim config two decades of muscle memory keep rewriting.
