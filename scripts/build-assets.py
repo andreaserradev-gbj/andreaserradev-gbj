@@ -6,7 +6,7 @@ repository (src/config/design-systems.json): 2px rules, zero radius, no
 shadows, one kintsugi-gold accent.
 
 Run: python3 scripts/build-assets.py
-Outputs: assets/hero-{light,dark}.svg, assets/card-<slug>-{light,dark}.svg
+Outputs: assets/hero-v2-{light,dark}.svg
 """
 
 from pathlib import Path
@@ -35,38 +35,6 @@ THEMES = {
     },
 }
 
-CARDS = [
-    {
-        "slug": "dev-workflow",
-        "name": "dev-workflow",
-        "lang": "JavaScript",
-        "desc": ["PRD phases, checkpoints, resume.", "Keeps a Monday decision driving Thursday's code."],
-        "live": False,
-    },
-    {
-        "slug": "portfolio-template",
-        "name": "portfolio-template",
-        "lang": "TypeScript",
-        "desc": ["Six switchable design systems in JSON,", "Zod-validated at build time."],
-        "live": True,
-    },
-    {
-        "slug": "jev-access-day",
-        "name": "jev-access-day",
-        "lang": "TypeScript",
-        "desc": ["Typed decision model vs an LLM stand-in on", "24 decisions, every number traced to a run file."],
-        "live": True,
-    },
-    {
-        "slug": "dotfiles-nix",
-        "name": "dotfiles-nix",
-        "lang": "Nix",
-        "desc": ["Three machines from one NixOS flake.", "One command rebuilds system and $HOME."],
-        "live": False,
-    },
-]
-
-
 def esc(text: str) -> str:
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -94,40 +62,10 @@ def hero(theme: dict) -> str:
 """
 
 
-def card(theme: dict, c: dict) -> str:
-    w, h = 460, 180
-    parts = [
-        f'<rect width="{w}" height="{h}" fill="{theme["bg"]}"/>',
-        f'<rect x="1" y="1" width="{w - 2}" height="{h - 2}" fill="none" stroke="{theme["rule"]}" stroke-width="2"/>',
-        f'<text x="26" y="34" font-family="{FONT_MONO}" font-size="18" font-weight="700" fill="{theme["fg"]}">{esc(c["name"])}</text>',
-        f'<line x1="26" y1="48" x2="70" y2="48" stroke="{theme["gold"]}" stroke-width="2"/>',
-    ]
-    for i, line in enumerate(c["desc"]):
-        parts.append(
-            f'<text x="26" y="{78 + i * 22}" font-family="{FONT_DISPLAY}" font-size="14" fill="{theme["muted"]}">{esc(line)}</text>'
-        )
-    fy = h - 26
-    parts.append(
-        f'<text x="26" y="{fy}" font-family="{FONT_MONO}" font-size="11" letter-spacing="0.8" fill="{theme["muted"]}">{c["lang"]}</text>'
-    )
-    parts.append(
-        f'<text x="{w - 26}" y="{fy}" text-anchor="end" font-family="{FONT_MONO}" font-size="11" fill="{theme["gold"]}">'
-        + ("live &#8599;" if c["live"] else "repo &#8599;")
-        + "</text>"
-    )
-    body = "\n  ".join(parts)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{esc(c['name'])}: {esc(' '.join(c['desc']))}">
-  {body}
-</svg>
-"""
-
-
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     for name, theme in THEMES.items():
         (OUT / f"hero-v2-{name}.svg").write_text(hero(theme), encoding="utf-8")
-        for c in CARDS:
-            (OUT / f"card-{c['slug']}-{name}.svg").write_text(card(theme, c), encoding="utf-8")
     print("wrote:", ", ".join(sorted(p.name for p in OUT.glob("*.svg"))))
 
 
