@@ -6,7 +6,7 @@ repository (src/config/design-systems.json): 2px rules, zero radius, no
 shadows, one kintsugi-gold accent.
 
 Run: python3 scripts/build-assets.py
-Outputs: assets/hero-v2-{light,dark}.svg
+Outputs: assets/hero-v3-{light,dark}.svg
 """
 
 from pathlib import Path
@@ -42,12 +42,17 @@ def esc(text: str) -> str:
 def hero(theme: dict) -> str:
     w, h = 1000, 300
     mid = w / 2
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Andrea Serra, full-stack developer at Balsamiq. Thirty years from racing ECUs to web and cloud to fintech risk. Bologna, Italy, remote.">
+    label = "SENIOR BACKEND ENGINEER"
+    # JetBrains Mono advance is 0.6em; label carries 2.6px tracking.
+    label_w = len(label) * (11.5 * 0.6 + 2.6)
+    group_w = 24 + 12 + label_w
+    group_x = mid - group_w / 2
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Andrea Serra, senior backend engineer in Bologna. Thirty years from racing ECUs to web and cloud to fintech risk.">
   <rect width="{w}" height="{h}" fill="{theme['bg']}"/>
   <rect x="2" y="2" width="{w - 4}" height="{h - 4}" fill="none" stroke="{theme['rule']}" stroke-width="2"/>
 
-  <rect x="{mid - 190}" y="44" width="24" height="2" fill="{theme['gold']}"/>
-  <text x="{mid - 150}" y="49" font-family="{FONT_MONO}" font-size="11.5" letter-spacing="2.6" fill="{theme['muted']}">FULL-STACK DEVELOPER</text>
+  <rect x="{group_x:.1f}" y="44" width="24" height="2" fill="{theme['gold']}"/>
+  <text x="{group_x + 36:.1f}" y="49" font-family="{FONT_MONO}" font-size="11.5" letter-spacing="2.6" fill="{theme['muted']}">{label}</text>
 
   <text x="{mid}" y="128" text-anchor="middle" font-family="{FONT_DISPLAY}" font-size="62" font-weight="900" letter-spacing="-1.8" fill="{theme['fg']}">Andrea Serra</text>
 
@@ -65,7 +70,7 @@ def hero(theme: dict) -> str:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     for name, theme in THEMES.items():
-        (OUT / f"hero-v2-{name}.svg").write_text(hero(theme), encoding="utf-8")
+        (OUT / f"hero-v3-{name}.svg").write_text(hero(theme), encoding="utf-8")
     print("wrote:", ", ".join(sorted(p.name for p in OUT.glob("*.svg"))))
 
 
