@@ -34,17 +34,6 @@ Every claim below links to something you can read or run.
 | **[jev-access-day](https://github.com/andreaserradev-gbj/jev-access-day)** · [live](https://jev-access-day.vercel.app) | Eval harness pitting a typed decision model against an LLM stand-in on 24 real operational decisions — every number traced to a committed run file. |
 | **[dotfiles-nix](https://github.com/andreaserradev-gbj/dotfiles-nix)** | Three machines from one NixOS flake. One `nixos-rebuild switch --flake .` rebuilds the system and `$HOME`; per-project dev shells load through direnv. My machines are code, reviewed like code. |
 
-## Numbers, with provenance
-
-| | |
-| --- | --- |
-| **13 years** | Primary technical liaison for the Atlassian integration · [details](https://andreaserra.dev/#impact) |
-| **+55%** | Marketplace revenue growth over that tenure · [details](https://andreaserra.dev/#impact) |
-| **100K+ / day** | Lambda requests served at 99.9% uptime · [details](https://andreaserra.dev/#impact) |
-| **10,000+ / s** | Telemetry data points per second, car to pit, at ARTAX · [details](https://andreaserra.dev/#achievements) |
-
-No streak counters, no trophy shelf. The numbers above have an owner and a paper trail.
-
 ## How I work
 
 > I architect the feature. The agent implements it and brainstorms with me. I review every line it writes, including the boilerplate that slips through. When something ships and works, that is on me. When it breaks, also me. The agent is an implementer and a sparring partner, never the decision-maker.
