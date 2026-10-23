@@ -7,7 +7,7 @@
 <a href="https://www.linkedin.com/in/andrea-serra/"><img src="https://img.shields.io/badge/LinkedIn-2c2a28?style=flat-square&logo=linkedin&logoColor=d8d6d2" alt="LinkedIn"></a>
 <a href="mailto:serra.andy@gmail.com"><img src="https://img.shields.io/badge/email-2c2a28?style=flat-square&logo=gmail&logoColor=d8d6d2" alt="Email"></a>
 
-**Building risk infrastructure at [Scalapay](https://scalapay.com).** Thirty years of shipped software behind that sentence: ECU calibration tools for racing teams, then thirteen years owning the AWS services and the Atlassian integration behind [Balsamiq](https://balsamiq.com), now identity verification, AML workflows, and credit-bureau reporting for a buy-now–pay-later platform.
+**Principal Engineer at [Balsamiq](https://balsamiq.com); from November 2026, risk infrastructure at [Scalapay](https://scalapay.com).** Thirty years of shipped software behind that sentence: ECU calibration tools for racing teams, then thirteen years owning the AWS services and the Atlassian integration behind Balsamiq, and next identity verification, AML workflows, and credit-bureau reporting for a buy-now–pay-later platform.
 
 I work as a senior engineer without a team under me. I own applications from planning through production, and I keep the architecture canonical across sessions that are days apart.
 
@@ -17,9 +17,9 @@ I work as a senior engineer without a team under me. I own applications from pla
 
 | Years | Where | What I owned | Outcome |
 | --- | --- | --- | --- |
-| **1996 – 2013** | ARTAX · Bologna | C++ on Windows, device drivers, CAN / XCP / CCP; a small embedded team | ECU calibration and telemetry for **Ferrari, Ducati, Renault, Toyota** racing programs |
-| **2013 – 2026** | Balsamiq · Bologna | Full reset into TypeScript / Node / AWS; Atlassian liaison; Lambda rendering services | **13 years** as primary technical liaison, **+55%** marketplace revenue, **100K+** requests/day at **99.9%** uptime |
-| **2026 –** | Scalapay · Remote | Greenfield NestJS services: identity verification, AML, fraud provider integrations, credit-bureau reporting | One of the first engineers on the Risk Ops team |
+| **1996 – May 2013** | ARTAX · Bologna | C++ on Windows, device drivers, CAN / XCP / CCP; a small embedded team | ECU calibration and telemetry for **Ferrari, Ducati, Renault, Toyota** racing programs |
+| **May 2013 – Oct 2026** | Balsamiq · Bologna | Full reset into TypeScript / Node / AWS; Atlassian liaison; Lambda rendering services | **13 years** as primary technical liaison, **+55%** marketplace revenue, **100K+** requests/day at **99.9%** uptime |
+| **Nov 2026 –** | Scalapay · Remote | Greenfield NestJS services: identity verification, AML, fraud provider integrations, credit-bureau reporting | One of the first engineers on a newly formed Risk Ops team |
 
 The reset at Balsamiq is the line I can defend hardest. The discipline that tuned a race ECU — measure, instrument, change one thing — is the same one I apply to a Lambda renderer and a risk pipeline. Only the language changed.
 
