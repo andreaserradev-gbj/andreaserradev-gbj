@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Andrea Serra, senior backend engineer in Bologna. Racing ECUs to web and cloud to fintech risk. ARTAX 1996, Balsamiq 2013, Scalapay 2026.">
+  <rect width="1000" height="280" fill="#d8d6d2"/>
+  <rect x="2" y="2" width="996" height="276" fill="none" stroke="#2c2a28" stroke-width="2"/>
+
+  <rect x="451" y="44" width="20" height="2" fill="#b08648"/>
+  <text x="483" y="49" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11.5" letter-spacing="2.4" fill="#6e6a64">SENIOR BACKEND ENGINEER</text>
+
+  <text x="500.0" y="126" text-anchor="middle" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="60" font-weight="900" letter-spacing="-1.6" fill="#2c2a28">Andrea Serra</text>
+
+  <text x="500.0" y="162" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="12.5" letter-spacing="0.6" fill="#6e6a64">racing ECUs &#8594; web &amp; cloud &#8594; fintech risk</text>
+
+  <line x1="120" y1="205" x2="880" y2="205" stroke="#2c2a28" stroke-width="2"/>
+  <line x1="120" y1="199" x2="120" y2="211" stroke="#2c2a28" stroke-width="2"/>
+  <line x1="880" y1="199" x2="880" y2="211" stroke="#2c2a28" stroke-width="2"/>
+  <line x1="500" y1="195" x2="500" y2="215" stroke="#b08648" stroke-width="3"/>
+
+  <text x="120" y="234" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.4" fill="#6e6a64">1996 · ARTAX</text>
+  <text x="500" y="234" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.4" fill="#6e6a64">2013 · BALSAMIQ</text>
+  <text x="880" y="234" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.4" fill="#6e6a64">2026 · SCALAPAY</text>
+
+  <text x="500.0" y="258" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="2.2" fill="#6e6a64">BOLOGNA, IT · REMOTE</text>
+</svg>

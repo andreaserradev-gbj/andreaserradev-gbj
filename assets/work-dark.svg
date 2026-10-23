@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" role="img" aria-label="Selected work: dev-workflow, portfolio-template, jev-access-day, dotfiles-nix.">
+  <rect width="1000" height="500" fill="#1a1816"/>
+  <rect x="36" y="44" width="448" height="198" fill="#221f1c"/>
+  <rect x="36" y="44" width="448" height="198" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <text x="60" y="78" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#c69a5d">01</text>
+  <text x="60" y="110" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#d8d4cc">dev-workflow</text>
+  <text x="60" y="142" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">Multi-session feature work with coding agents:</text>
+  <text x="60" y="162" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">PRD phases, checkpoints, resume across tools.</text>
+  <text x="60" y="218" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="0.8" fill="#8a857c">JavaScript</text>
+  <rect x="516" y="44" width="448" height="198" fill="#221f1c"/>
+  <rect x="516" y="44" width="448" height="198" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <text x="540" y="78" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#c69a5d">02</text>
+  <text x="540" y="110" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#d8d4cc">portfolio-template</text>
+  <text x="540" y="142" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">JSON-driven portfolio with six switchable</text>
+  <text x="540" y="162" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">design systems, validated at build time.</text>
+  <text x="540" y="218" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="0.8" fill="#8a857c">TypeScript</text>
+  <text x="940" y="218" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" fill="#c69a5d">live &#8599;</text>
+  <rect x="36" y="272" width="448" height="198" fill="#221f1c"/>
+  <rect x="36" y="272" width="448" height="198" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <text x="60" y="306" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#c69a5d">03</text>
+  <text x="60" y="338" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#d8d4cc">jev-access-day</text>
+  <text x="60" y="370" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">Typed decision model against an LLM stand-in</text>
+  <text x="60" y="390" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">on 24 operational decisions, every run committed.</text>
+  <text x="60" y="446" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="0.8" fill="#8a857c">TypeScript</text>
+  <text x="460" y="446" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" fill="#c69a5d">live &#8599;</text>
+  <rect x="516" y="272" width="448" height="198" fill="#221f1c"/>
+  <rect x="516" y="272" width="448" height="198" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <text x="540" y="306" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#c69a5d">04</text>
+  <text x="540" y="338" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#d8d4cc">dotfiles-nix</text>
+  <text x="540" y="370" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">Three machines from one NixOS flake. One</text>
+  <text x="540" y="390" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8a857c">command rebuilds system and $HOME.</text>
+  <text x="540" y="446" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="0.8" fill="#8a857c">Nix</text>
+</svg>
