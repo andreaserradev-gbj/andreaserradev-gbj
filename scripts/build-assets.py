@@ -125,7 +125,7 @@ def card(theme: dict, c: dict) -> str:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     for name, theme in THEMES.items():
-        (OUT / f"hero-{name}.svg").write_text(hero(theme), encoding="utf-8")
+        (OUT / f"hero-v2-{name}.svg").write_text(hero(theme), encoding="utf-8")
         for c in CARDS:
             (OUT / f"card-{c['slug']}-{name}.svg").write_text(card(theme, c), encoding="utf-8")
     print("wrote:", ", ".join(sorted(p.name for p in OUT.glob("*.svg"))))
