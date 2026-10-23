@@ -7,7 +7,7 @@
 <a href="https://www.linkedin.com/in/andrea-serra/"><img src="https://img.shields.io/badge/LinkedIn-2c2a28?style=flat-square&logo=linkedin&logoColor=d8d6d2" alt="LinkedIn"></a>
 <a href="mailto:serra.andy@gmail.com"><img src="https://img.shields.io/badge/email-2c2a28?style=flat-square&logo=gmail&logoColor=d8d6d2" alt="Email"></a>
 
-**Principal Engineer at [Balsamiq](https://balsamiq.com); from November 2026, risk infrastructure at [Scalapay](https://scalapay.com).** Thirty years of shipped software behind that sentence: ECU calibration tools for racing teams, then thirteen years owning the AWS services and the Atlassian integration behind Balsamiq, and next identity verification, AML workflows, and credit-bureau reporting for a buy-now–pay-later platform.
+**Full-stack developer at [Balsamiq](https://balsamiq.com); from November 2026, risk infrastructure at [Scalapay](https://scalapay.com).** Thirty years of shipped software behind that sentence: ECU calibration tools for racing teams, then thirteen years owning the AWS services and the Atlassian integration behind Balsamiq, and next identity verification, AML workflows, and credit-bureau reporting for a buy-now–pay-later platform.
 
 I work as a senior engineer without a team under me. I own applications from planning through production, and I keep the architecture canonical across sessions that are days apart.
 
