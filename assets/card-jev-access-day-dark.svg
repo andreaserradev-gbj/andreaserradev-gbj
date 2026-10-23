@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 180" width="460" height="180" role="img" aria-label="jev-access-day: Typed decision model vs an LLM stand-in on 24 decisions, every number traced to a run file.">
+  <rect width="460" height="180" fill="#1a1816"/>
+  <rect x="1" y="1" width="458" height="178" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <text x="26" y="34" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" fill="#d8d4cc">jev-access-day</text>
+  <line x1="26" y1="48" x2="70" y2="48" stroke="#c69a5d" stroke-width="2"/>
+  <text x="26" y="78" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#8a857c">Typed decision model vs an LLM stand-in on</text>
+  <text x="26" y="100" font-family="'Hanken Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#8a857c">24 decisions, every number traced to a run file.</text>
+  <text x="26" y="154" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="0.8" fill="#8a857c">TypeScript</text>
+  <text x="434" y="154" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="11" fill="#c69a5d">live &#8599;</text>
+</svg>

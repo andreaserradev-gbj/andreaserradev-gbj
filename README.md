@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/hero-dark.svg">
-    <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/hero-light.svg" alt="Andrea Serra, senior backend engineer in Bologna. Racing ECUs to web and cloud to fintech risk." width="100%">
+    <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/hero-light.svg" alt="Andrea Serra, full-stack developer at Balsamiq. Thirty years from racing ECUs to web and cloud to fintech risk. Bologna, Italy, remote." width="100%">
   </picture>
 </p>
 
@@ -13,26 +13,51 @@
 
 <p align="center">
   <b>Full-stack developer at <a href="https://balsamiq.com">Balsamiq</a></b> · from November 2026, risk infrastructure at <a href="https://scalapay.com">Scalapay</a><br>
-  Thirty years of shipped software: racing ECUs, web and cloud, fintech risk.
+  <sub>Thirty years of shipped software: racing ECUs, web and cloud, fintech risk.</sub>
 </p>
 
 ---
 
 <h2 align="center">Selected work</h2>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/work-dark.svg">
-    <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/work-light.svg" alt="Selected work: dev-workflow, portfolio-template, jev-access-day, dotfiles-nix" width="100%">
-  </picture>
-</p>
-
-<p align="center">
-  <a href="https://github.com/andreaserradev-gbj/dev-workflow"><img src="https://img.shields.io/badge/dev--workflow-2c2a28?style=for-the-badge&logo=claude&logoColor=d8d6d2" alt="dev-workflow"></a>
-  <a href="https://github.com/andreaserradev-gbj/portfolio-template"><img src="https://img.shields.io/badge/portfolio--template-2c2a28?style=for-the-badge&logo=react&logoColor=d8d6d2" alt="portfolio-template"></a>
-  <a href="https://github.com/andreaserradev-gbj/jev-access-day"><img src="https://img.shields.io/badge/jev--access--day-2c2a28?style=for-the-badge&logo=data&logoColor=d8d6d2" alt="jev-access-day"></a>
-  <a href="https://github.com/andreaserradev-gbj/dotfiles-nix"><img src="https://img.shields.io/badge/dotfiles--nix-2c2a28?style=for-the-badge&logo=nixos&logoColor=d8d6d2" alt="dotfiles-nix"></a>
-</p>
+<table align="center">
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/andreaserradev-gbj/dev-workflow">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-dev-workflow-dark.svg">
+          <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-dev-workflow-light.svg" alt="dev-workflow: multi-session feature work with coding agents" width="460">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/andreaserradev-gbj/portfolio-template">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-portfolio-template-dark.svg">
+          <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-portfolio-template-light.svg" alt="portfolio-template: six switchable design systems, JSON-driven" width="460">
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/andreaserradev-gbj/jev-access-day">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-jev-access-day-dark.svg">
+          <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-jev-access-day-light.svg" alt="jev-access-day: typed decision model against an LLM stand-in on 24 operational decisions" width="460">
+        </picture>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/andreaserradev-gbj/dotfiles-nix">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-dotfiles-nix-dark.svg">
+          <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/card-dotfiles-nix-light.svg" alt="dotfiles-nix: three machines from one NixOS flake" width="460">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -44,14 +69,23 @@
 | **May 2013 – Oct 2026** | Balsamiq · Bologna | Full reset into TypeScript / Node / AWS; Atlassian liaison; Lambda rendering services | **13 years** as primary technical liaison, **+55%** marketplace revenue, **100K+** requests/day at **99.9%** uptime |
 | **Nov 2026 –** | Scalapay · Remote | Greenfield NestJS services: identity verification, AML, fraud provider integrations, credit-bureau reporting | One of the first engineers on a newly formed Risk Ops team |
 
+---
+
 <h2 align="center">How I work</h2>
 
-> I architect the feature. The agent implements it and brainstorms with me. I review every line it writes, including the boilerplate that slips through. When something ships and works, that is on me. When it breaks, also me. The agent is an implementer and a sparring partner, never the decision-maker.
+<p align="center">
+  <i>I architect the feature. The agent implements it and brainstorms with me.<br>
+  I review every line it writes, including the boilerplate that slips through.<br>
+  When something ships and works, that is on me. When it breaks, also me.<br>
+  The agent is an implementer and a sparring partner, never the decision-maker.</i>
+</p>
 
 <p align="center">
-  I own applications from planning through production.<br>
-  I keep the architecture canonical across sessions that are days apart.
+  <sub>I own applications from planning through production.<br>
+  I keep the architecture canonical across sessions that are days apart.</sub>
 </p>
+
+---
 
 <h2 align="center">Tools</h2>
 
