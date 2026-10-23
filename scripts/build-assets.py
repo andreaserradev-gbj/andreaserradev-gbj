@@ -6,7 +6,7 @@ repository (src/config/design-systems.json): 2px rules, zero radius, no
 shadows, one kintsugi-gold accent.
 
 Run: python3 scripts/build-assets.py
-Outputs: assets/hero-v3-{light,dark}.svg, assets/loop-v2-{light,dark}.svg
+Outputs: assets/hero-v3-{light,dark}.svg, assets/loop-v3-{light,dark}.svg
 """
 
 from pathlib import Path
@@ -111,7 +111,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     for name, theme in THEMES.items():
         (OUT / f"hero-v3-{name}.svg").write_text(hero(theme), encoding="utf-8")
-        (OUT / f"loop-v2-{name}.svg").write_text(loop(theme), encoding="utf-8")
+        (OUT / f"loop-v3-{name}.svg").write_text(loop(theme), encoding="utf-8")
     print("wrote:", ", ".join(sorted(p.name for p in OUT.glob("*.svg"))))
 
 

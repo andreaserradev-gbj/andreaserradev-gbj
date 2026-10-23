@@ -34,8 +34,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/loop-v2-dark.svg">
-    <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/loop-v2-light.svg" alt="Working loop: I architect, the agent builds, I review." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/loop-v3-dark.svg">
+    <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/loop-v3-light.svg" alt="Working loop: I architect, the agent builds, I review." width="100%">
   </picture>
 </p>
 
