@@ -21,14 +21,29 @@
 <h2 align="center">About</h2>
 
 <p align="center">
-  Thirty years of shipped software. ECU calibration tools for racing teams, thirteen years<br>
-  owning the AWS services and the Atlassian integration behind Balsamiq, and next identity<br>
-  verification, AML workflows and credit-bureau reporting for a buy-now–pay-later platform.
+  I like software that outlives the sprint it was written in. The work I am proudest of kept running<br>
+  for years without me standing next to it: services that stayed up, integrations that kept passing review,<br>
+  machines that rebuild themselves from a single file.
 </p>
 
 <p align="center">
-  <sub>I own applications from planning through production, and I keep the architecture<br>
-  canonical across sessions that are days apart.</sub>
+  I keep my own tools sharp. My three machines — a laptop, a desktop, and an Apple Silicon VM — come from<br>
+  one NixOS flake, where a single command rebuilds the OS and my home directory together. I type on a<br>
+  46-key Corne, which is mostly an excuse to keep rewriting a Neovim config I have carried for two decades.<br>
+  I run image and video models locally on a Radeon iGPU, less for the pictures than to know what the<br>
+  tooling actually costs and where it breaks.
+</p>
+
+<p align="center">
+  <sub>I write tools for myself first and publish them once they stop embarrassing me. <code>dev-workflow</code><br>
+  exists because I kept losing the thread between sessions; the dotfiles are public because a config you<br>
+  cannot rebuild from scratch is a config you do not understand.</sub>
+</p>
+
+<p align="center">
+  <i>I architect the feature. The agent implements it and brainstorms with me — I review every line,<br>
+  including the boilerplate that slips through. When something ships and works, that is on me.<br>
+  When it breaks, also me. The agent is an implementer and a sparring partner, never the decision-maker.</i>
 </p>
 
 ---
@@ -63,27 +78,6 @@
 </p>
 <p align="center">
   <sub>Three machines from one NixOS flake. One command rebuilds system and <code>$HOME</code>.</sub>
-</p>
-
----
-
-<h2 align="center">Three careers, one throughline</h2>
-
-| Years | Where | What I owned | Outcome |
-| --- | --- | --- | --- |
-| **1996 – May 2013** | ARTAX · Bologna | C++ on Windows, device drivers, CAN / XCP / CCP; a small embedded team | ECU calibration and telemetry for **Ferrari, Ducati, Renault, Toyota** racing programs |
-| **May 2013 – Oct 2026** | Balsamiq · Bologna | Full reset into TypeScript / Node / AWS; Atlassian liaison; Lambda rendering services | **13 years** as primary technical liaison, **+55%** marketplace revenue, **100K+** requests/day at **99.9%** uptime |
-| **Nov 2026 –** | Scalapay · Remote | Greenfield NestJS services: identity verification, AML, fraud provider integrations, credit-bureau reporting | One of the first engineers on a newly formed Risk Ops team |
-
----
-
-<h2 align="center">How I work</h2>
-
-<p align="center">
-  <i>I architect the feature. The agent implements it and brainstorms with me.<br>
-  I review every line it writes, including the boilerplate that slips through.<br>
-  When something ships and works, that is on me. When it breaks, also me.<br>
-  The agent is an implementer and a sparring partner, never the decision-maker.</i>
 </p>
 
 ---
