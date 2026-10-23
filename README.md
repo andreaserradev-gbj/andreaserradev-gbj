@@ -25,8 +25,9 @@
 </p>
 
 <p align="center">
-  Services that stay up. Integrations that keep passing review. Machines<br>
-  that rebuild themselves from one file. That is the whole ambition.
+  Services that stay up. Integrations that keep passing review.<br>
+  Machines that rebuild themselves from one file.<br>
+  <b>That is the whole ambition.</b>
 </p>
 
 ---
@@ -39,8 +40,9 @@
 </p>
 
 <p align="center">
-  I review every line the agent writes, boilerplate included. It is a sparring<br>
-  partner, never the decision-maker. What ships is mine, good or bad.
+  I review every line the agent writes, boilerplate included.<br>
+  It is a sparring partner, never the decision-maker.<br>
+  What ships is mine, good or bad.
 </p>
 
 ---

@@ -76,8 +76,8 @@ STEPS = ["I ARCHITECT", "AGENT BUILDS", "I REVIEW"]
 def loop(theme: dict) -> str:
     """Three-word working loop. Only large type, so it stays legible when
     GitHub scales the image down to a phone width."""
-    w, h = 1000, 132
-    box_w, box_h = 268, 64
+    w, h = 1000, 124
+    box_w, box_h = 284, 78
     gap = 48
     total = len(STEPS) * box_w + (len(STEPS) - 1) * gap
     x0 = (w - total) / 2
@@ -91,7 +91,7 @@ def loop(theme: dict) -> str:
             f'<rect x="{x:.1f}" y="{y0}" width="{box_w}" height="{box_h}" fill="{theme["elev"]}"/>',
             f'<rect x="{x:.1f}" y="{y0}" width="{box_w}" height="{box_h}" fill="none" stroke="{theme["rule"]}" stroke-width="2"/>',
             f'<rect x="{x:.1f}" y="{y0}" width="5" height="{box_h}" fill="{theme["gold"]}"/>',
-            f'<text x="{x + box_w / 2 + 3:.1f}" y="{y0 + 41}" text-anchor="middle" font-family="{FONT_MONO}" font-size="19" font-weight="700" letter-spacing="1.2" fill="{theme["fg"]}">{label}</text>',
+            f'<text x="{x + box_w / 2 + 3:.1f}" y="{y0 + 47}" text-anchor="middle" font-family="{FONT_MONO}" font-size="26" font-weight="700" letter-spacing="1" fill="{theme["fg"]}">{label}</text>',
         ]
         if i < len(STEPS) - 1:
             ax = x + box_w + 12
