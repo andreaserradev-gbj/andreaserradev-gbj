@@ -47,19 +47,6 @@
 
 ---
 
-<p align="center">
-  <b>How I keep my tools</b>
-</p>
-
-| | |
-| --- | --- |
-| **Three machines, one flake** | Laptop, desktop and an Apple Silicon VM, all rebuilt by one NixOS flake. |
-| **46-key Corne** | MX Pro from Keebart. Mostly an excuse to keep rewriting my Neovim config. |
-| **Models, locally** | Image and video inference on a Radeon iGPU — to learn what the tooling costs. |
-| **Tools I publish** | Written for myself first. `dev-workflow` because I kept losing the thread. |
-
----
-
 <h2 align="center">Selected work</h2>
 
 <p align="center">
