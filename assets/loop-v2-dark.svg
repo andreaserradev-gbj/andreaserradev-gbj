@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 132" width="1000" height="132" role="img" aria-label="Working loop: I architect, the agent builds, I review.">
+  <rect width="1000" height="132" fill="#1a1816"/>
+  <rect x="50.0" y="34.0" width="268" height="64" fill="#221f1c"/>
+  <rect x="50.0" y="34.0" width="268" height="64" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <rect x="50.0" y="34.0" width="5" height="64" fill="#c69a5d"/>
+  <text x="187.0" y="75.0" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" letter-spacing="1.2" fill="#d8d4cc">I ARCHITECT</text>
+  <line x1="330.0" y1="66.0" x2="348.0" y2="66.0" stroke="#8a857c" stroke-width="3"/>
+  <path d="M 342.0 59.0 L 352.0 66.0 L 342.0 73.0 Z" fill="#8a857c"/>
+  <rect x="366.0" y="34.0" width="268" height="64" fill="#221f1c"/>
+  <rect x="366.0" y="34.0" width="268" height="64" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <rect x="366.0" y="34.0" width="5" height="64" fill="#c69a5d"/>
+  <text x="503.0" y="75.0" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" letter-spacing="1.2" fill="#d8d4cc">AGENT BUILDS</text>
+  <line x1="646.0" y1="66.0" x2="664.0" y2="66.0" stroke="#8a857c" stroke-width="3"/>
+  <path d="M 658.0 59.0 L 668.0 66.0 L 658.0 73.0 Z" fill="#8a857c"/>
+  <rect x="682.0" y="34.0" width="268" height="64" fill="#221f1c"/>
+  <rect x="682.0" y="34.0" width="268" height="64" fill="none" stroke="#d8d4cc" stroke-width="2"/>
+  <rect x="682.0" y="34.0" width="5" height="64" fill="#c69a5d"/>
+  <text x="819.0" y="75.0" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,'DejaVu Sans Mono',monospace" font-size="19" font-weight="700" letter-spacing="1.2" fill="#d8d4cc">I REVIEW</text>
+</svg>

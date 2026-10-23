@@ -21,30 +21,40 @@
 <h2 align="center">About</h2>
 
 <p align="center">
-  I like software that outlives the sprint it was written in. The work I am proudest of kept running<br>
-  for years without me standing next to it: services that stayed up, integrations that kept passing review,<br>
-  machines that rebuild themselves from a single file.
+  <b>I build things that keep running after I stop looking.</b>
 </p>
 
 <p align="center">
-  I keep my own tools sharp. My three machines — a laptop, a desktop, and an Apple Silicon VM — come from<br>
-  one NixOS flake, where a single command rebuilds the OS and my home directory together. I type on a<br>
-  46-key Corne, which is mostly an excuse to keep rewriting a Neovim config I have carried for two decades.<br>
-  I run image and video models locally on a Radeon iGPU, less for the pictures than to know what the<br>
-  tooling actually costs and where it breaks.
+  Services that stay up. Integrations that keep passing review. Machines<br>
+  that rebuild themselves from one file. That is the whole ambition.
+</p>
+
+---
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/loop-v2-dark.svg">
+    <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/loop-v2-light.svg" alt="Working loop: I architect, the agent builds, I review." width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  I write tools for myself first and publish them once they stop embarrassing me. <code>dev-workflow</code><br>
-  exists because I kept losing the thread between sessions; the dotfiles are public because a config you<br>
-  cannot rebuild from scratch is a config you do not understand.
+  I review every line the agent writes, boilerplate included. It is a sparring<br>
+  partner, never the decision-maker. What ships is mine, good or bad.
 </p>
 
+---
+
 <p align="center">
-  <i>I architect the feature. The agent implements it and brainstorms with me — I review every line,<br>
-  including the boilerplate that slips through. When something ships and works, that is on me.<br>
-  When it breaks, also me. The agent is an implementer and a sparring partner, never the decision-maker.</i>
+  <b>How I keep my tools</b>
 </p>
+
+| | |
+| --- | --- |
+| **Three machines, one flake** | Laptop, desktop and an Apple Silicon VM, all rebuilt by one NixOS flake. |
+| **46-key Corne** | MX Pro from Keebart. Mostly an excuse to keep rewriting my Neovim config. |
+| **Models, locally** | Image and video inference on a Radeon iGPU — to learn what the tooling costs. |
+| **Tools I publish** | Written for myself first. `dev-workflow` because I kept losing the thread. |
 
 ---
 
