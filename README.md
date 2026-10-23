@@ -9,7 +9,7 @@
 
 **Full-stack developer at [Balsamiq](https://balsamiq.com); from November 2026, risk infrastructure at [Scalapay](https://scalapay.com).** Thirty years of shipped software behind that sentence: ECU calibration tools for racing teams, then thirteen years owning the AWS services and the Atlassian integration behind Balsamiq, and next identity verification, AML workflows, and credit-bureau reporting for a buy-now–pay-later platform.
 
-I work as a senior engineer without a team under me. I own applications from planning through production, and I keep the architecture canonical across sessions that are days apart.
+I own applications from planning through production, and I keep the architecture canonical across sessions that are days apart.
 
 ---
 
