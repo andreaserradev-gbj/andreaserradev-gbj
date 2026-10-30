@@ -5,9 +5,8 @@
 </p>
 
 <p align="center">
-  <b>Full-stack developer at <a href="https://balsamiq.com">Balsamiq</a></b><br>
-  from November 2026, risk infrastructure at <a href="https://scalapay.com">Scalapay</a><br>
-  Bologna, Italy · remote
+  <b>Lead Backend Software Engineer at <a href="https://scalapay.com">Scalapay</a> from November 2026</b><br>
+  Building risk infrastructure · Bologna, Italy · remote
 </p>
 
 ---
