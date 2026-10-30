@@ -1,11 +1,4 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/hero-v3-dark.svg">
-    <img src="https://raw.githubusercontent.com/andreaserradev-gbj/andreaserradev-gbj/main/assets/hero-v3-light.svg" alt="Andrea Serra, full-stack developer at Balsamiq. Thirty years from racing ECUs to web and cloud to fintech risk. Bologna, Italy, remote." width="100%">
-  </picture>
-</p>
-
-<p align="center">
   <a href="https://andreaserra.dev"><img src="https://img.shields.io/badge/andreaserra.dev-b08648?style=for-the-badge&logo=firefox&logoColor=1a1816" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/andrea-serra/"><img src="https://img.shields.io/badge/LinkedIn-2c2a28?style=for-the-badge&logo=linkedin&logoColor=d8d6d2" alt="LinkedIn"></a>
   <a href="mailto:serra.andy@gmail.com"><img src="https://img.shields.io/badge/Email-2c2a28?style=for-the-badge&logo=gmail&logoColor=d8d6d2" alt="Email"></a>
@@ -13,7 +6,8 @@
 
 <p align="center">
   <b>Full-stack developer at <a href="https://balsamiq.com">Balsamiq</a></b><br>
-  from November 2026, risk infrastructure at <a href="https://scalapay.com">Scalapay</a>
+  from November 2026, risk infrastructure at <a href="https://scalapay.com">Scalapay</a><br>
+  Bologna, Italy · remote
 </p>
 
 ---
